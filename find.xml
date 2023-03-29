@@ -1,0 +1,29 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.jsp</mask>
+    <mask>*.properties</mask>
+    <mask>*.java</mask>
+    <mask>*.yaml</mask>
+    <mask>*Request.kt</mask>
+    <mask>*cache.kt</mask>
+    <mask>*Test.kt</mask>
+    <mask>*Response.kt</mask>
+    <mask>*Enum.kt</mask>
+    <mask>*Route.kt</mask>
+    <mask>build.gradle.kts</mask>
+    <mask>*table.kt</mask>
+    <mask>*test.kt</mask>
+    <mask>whiteLabelSettings-*.conf</mask>
+    <mask>*.kt</mask>
+    <mask>*.xml</mask>
+  </component>
+</application>

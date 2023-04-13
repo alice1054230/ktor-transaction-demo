@@ -7,6 +7,7 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.kt" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -24,7 +25,7 @@
     <mask>*test.kt</mask>
     <mask>whiteLabelSettings-*.conf</mask>
     <mask>*.xml</mask>
-    <mask>*.kt</mask>
     <mask>*.kts</mask>
+    <mask>*.kt</mask>
   </component>
 </application>

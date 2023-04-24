@@ -7,6 +7,7 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*Test.kt" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -15,7 +16,6 @@
     <mask>*.yaml</mask>
     <mask>*Request.kt</mask>
     <mask>*cache.kt</mask>
-    <mask>*Test.kt</mask>
     <mask>*Response.kt</mask>
     <mask>*Enum.kt</mask>
     <mask>*Route.kt</mask>
@@ -26,5 +26,6 @@
     <mask>*.xml</mask>
     <mask>*.kts</mask>
     <mask>*.kt</mask>
+    <mask>*Test.kt</mask>
   </component>
 </application>

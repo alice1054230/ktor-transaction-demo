@@ -1,0 +1,5 @@
+<application>
+  <component name="KafkaSettings">
+    <option name="selectedConnectionId" value="" />
+  </component>
+</application>

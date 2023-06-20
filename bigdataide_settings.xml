@@ -21,7 +21,6 @@
           <option name="uri" value="10.1.30.243:9092,10.1.30.244:9092,10.1.30.245:9092" />
         </ExtendedConnectionData>
         <ExtendedConnectionData>
-          <option name="enabled" value="false" />
           <option name="extended">
             <map>
               <entry key="properties" value="rO0ABXQAAA==" />

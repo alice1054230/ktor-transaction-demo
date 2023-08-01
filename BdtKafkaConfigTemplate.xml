@@ -1,0 +1,44 @@
+<application>
+  <component name="BdtKafkaConfigTemplate">
+    <option name="consumerRunConfigs">
+      <list>
+        <StorageConsumerConfig>
+          <option name="filter">
+            <map>
+              <entry key="type" value="NONE" />
+            </map>
+          </option>
+          <option name="keyType" value="STRING" />
+          <option name="limit">
+            <map>
+              <entry key="time" value="" />
+              <entry key="type" value="NONE" />
+              <entry key="value" value="" />
+            </map>
+          </option>
+          <option name="startWith">
+            <map>
+              <entry key="offset" value="" />
+              <entry key="time" value="" />
+              <entry key="type" value="LAST_HOUR" />
+            </map>
+          </option>
+          <option name="topic" value="CUSTOMER_MSG" />
+          <option name="valueType" value="STRING" />
+        </StorageConsumerConfig>
+      </list>
+    </option>
+    <option name="producerRunConfigs">
+      <list>
+        <StorageProducerConfig>
+          <option name="acks" value="NONE" />
+          <option name="compression" value="NONE" />
+          <option name="keyType" value="STRING" />
+          <option name="topic" value="CUSTOMER_MSG" />
+          <option name="value" value="{&#10;  &quot;id&quot;: &quot;7ef3ba12-075c-4ee0-9d6e-419433190cd5&quot;,&#10;  &quot;type&quot;: &quot;C_FIAT_DEPOSIT_REQ&quot;,&#10;  &quot;username&quot;: &quot;alicehsu001&quot;,&#10;  &quot;templateParams&quot;: {&#10;    &quot;txn&quot;: &quot;2023010100000001&quot;&#10;  },&#10;  &quot;action&quot;: {&#10;    &quot;type&quot;: &quot;WALLET_HISTORY&quot;,&#10;    &quot;params&quot;: {&#10;      &quot;type&quot;: &quot;WITHDRAW&quot;&#10;    }&#10;  }&#10;}" />
+          <option name="valueType" value="JSON" />
+        </StorageProducerConfig>
+      </list>
+    </option>
+  </component>
+</application>
